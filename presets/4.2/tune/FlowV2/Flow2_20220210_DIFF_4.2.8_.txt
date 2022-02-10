@@ -1,0 +1,249 @@
+#$ TITLE:  Flow V2 diff all 4.2.8
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, tune, pid, basic, default
+#$ AUTHOR: CMD_Muetze
+
+diff all
+
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.2.8 Feb 15 2021 / 12:10:35 (101738d8e) MSP API: 1.43
+# config: manufacturer_id: FLWO, board_name: FLYWOOF7DUAL, version: 2ca86ba0, date: 2020-03-08T08:55:50Z
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name FLYWOOF7DUAL
+manufacturer_id FLWO
+mcu_id 003800304638500520383937
+signature 
+
+# name: Flow
+
+# resources
+resource MOTOR 1 B03
+resource MOTOR 2 B01
+resource MOTOR 3 A15
+resource MOTOR 4 B04
+
+# feature
+feature -SOFTSERIAL
+feature -RX_PARALLEL_PWM
+feature -RSSI_ADC
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -RX_LOST
+beeper -RX_LOST_LANDING
+beeper -ARMING_GPS_FIX
+beeper -BAT_LOW
+beeper -GPS_STATUS
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -CRASH_FLIP
+
+# beacon
+beacon RX_SET
+
+# map
+map TAER1234
+
+# serial
+serial 1 64 115200 57600 0 115200
+serial 3 1 115200 57600 0 115200
+serial 5 1024 115200 57600 0 115200
+
+# led
+led 0 8,8:S:CT:2
+led 1 9,9:S:C:2
+led 2 10,10:S:CT:2
+led 3 11,11:S:C:2
+led 4 12,12:S:CT:2
+led 5 5,8:S:CT:2
+led 6 4,9:S:C:2
+led 7 3,10:S:CT:2
+led 8 2,11:S:C:2
+led 9 1,12:S:CT:2
+led 10 6,7:SU:A:2
+led 11 7,7:SU:A:2
+led 12 6,6:NU:FB:3
+led 13 7,6:NU:FB:3
+
+# mode_color
+mode_color 0 0 10
+mode_color 6 0 3
+mode_color 6 1 2
+mode_color 6 6 4
+
+# aux
+aux 0 0 1 1800 2100 0 0
+aux 1 13 0 1800 2100 0 0
+aux 2 26 2 1800 2100 0 0
+aux 3 31 2 900 1200 0 0
+aux 4 35 1 900 1200 0 0
+aux 5 36 3 1800 2100 0 0
+
+# rxrange
+rxrange 0 988 2011
+rxrange 1 989 2011
+rxrange 2 988 2011
+rxrange 3 988 2011
+
+# vtxtable
+vtxtable bands 1
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 200 500
+
+# master
+set gyro_lowpass2_hz = 500
+set dyn_notch_width_percent = 0
+set dyn_notch_q = 250
+set dyn_notch_min_hz = 110
+set dyn_notch_max_hz = 350
+set dyn_lpf_gyro_min_hz = 400
+set dyn_lpf_gyro_max_hz = 1000
+set acc_hardware = NONE
+set mag_hardware = NONE
+set baro_hardware = NONE
+set min_check = 1020
+set max_check = 2000
+set serialrx_provider = CRSF
+set dshot_burst = OFF
+set dshot_bidir = ON
+set vbat_scale = 113
+set yaw_motors_reversed = ON
+set osd_warn_batt_not_full = OFF
+set osd_warn_batt_warning = OFF
+set osd_warn_batt_critical = OFF
+set osd_warn_crash_flip = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_rssi_alarm = 0
+set osd_cap_alarm = 1000
+set osd_vbat_pos = 14755
+set osd_rssi_pos = 430
+set osd_link_quality_pos = 2479
+set osd_tim_1_pos = 459
+set osd_tim_2_pos = 14776
+set osd_throttle_pos = 14734
+set osd_vtx_channel_pos = 52
+set osd_current_pos = 387
+set osd_mah_drawn_pos = 2520
+set osd_craft_name_pos = 14798
+set osd_gps_speed_pos = 88
+set osd_gps_lon_pos = 481
+set osd_gps_lat_pos = 497
+set osd_gps_sats_pos = 1
+set osd_home_dir_pos = 46
+set osd_home_dist_pos = 12
+set osd_flight_dist_pos = 6
+set osd_altitude_pos = 0
+set osd_pidrate_profile_pos = 34
+set osd_warnings_pos = 14667
+set osd_avg_cell_voltage_pos = 417
+set osd_battery_usage_pos = 170
+set osd_disarmed_pos = 14573
+set osd_flip_arrow_pos = 270
+set osd_log_status_pos = 2275
+set osd_pid_profile_name_pos = 2
+set osd_stat_rtc_date_time = ON
+set osd_stat_max_spd = OFF
+set osd_stat_min_batt = OFF
+set osd_stat_endbatt = ON
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_min_link_quality = ON
+set osd_displayport_device = MSP
+set debug_mode = DUAL_GYRO_SCALED
+set scheduler_optimize_rate = ON
+set vtx_band = 1
+set vtx_channel = 1
+set vtx_power = 1
+set vcd_video_system = PAL
+set displayport_msp_serial = 3
+set gyro_1_align_pitch = 1800
+set gyro_1_align_yaw = 1800
+set gyro_2_align_yaw = 2700
+set name = Flow
+
+profile 0
+
+# profile 0
+set dyn_lpf_dterm_min_hz = 140
+set dyn_lpf_dterm_max_hz = 340
+set dterm_lowpass2_hz = 300
+set anti_gravity_gain = 4500
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+set p_pitch = 60
+set f_pitch = 133
+set p_roll = 55
+set f_roll = 126
+set p_yaw = 59
+set f_yaw = 126
+set d_min_roll = 0
+set d_min_pitch = 0
+
+profile 1
+
+profile 2
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = ACTUAL
+set roll_rc_rate = 2
+set pitch_rc_rate = 2
+set yaw_rc_rate = 2
+set roll_expo = 20
+set pitch_expo = 20
+set yaw_expo = 20
+set roll_srate = 87
+set pitch_srate = 87
+set tpa_rate = 75
+set tpa_breakpoint = 1650
+
+rateprofile 1
+
+# rateprofile 1
+set rates_type = ACTUAL
+set roll_rc_rate = 2
+set pitch_rc_rate = 2
+set yaw_rc_rate = 2
+set roll_expo = 20
+set pitch_expo = 20
+set yaw_expo = 15
+set roll_srate = 60
+set pitch_srate = 60
+set yaw_srate = 55
+set tpa_breakpoint = 1750
+
+rateprofile 2
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+
+# restore original rateprofile selection
+rateprofile 1
+
+# save configuration
+save
+# 

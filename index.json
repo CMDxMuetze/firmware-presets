@@ -320,6 +320,46 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.2/tune/FlowV2/Flow2_20220210_DIFF_4.2.8_.txt",
+      "hash": "98c8e5184d0b5378829bc92c3e61495b0095311021a546da1293f7b69eb5d1a2",
+      "title": "Flow V2 diff all 4.2.8",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "CMD_Muetze",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.2/tune/FlowV2/Flow2_20220210_DUMP_4.2.8_.txt",
+      "hash": "7f2b4d56a1e7d279f8e71ecdcba7e55a1b962e19b9e085334e4b4ca1cc3cdf54",
+      "title": "Flow V2 dump 4.2.8",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "CMD_Muetze",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.2/tune/Stingy/Stingy_31.03.2021_diff_all.txt",
       "hash": "7d100da0b5044aa07608d459a27ca0e670e52944a054f701dfaf6eefbae044db",
       "title": "Stingy diff all",
