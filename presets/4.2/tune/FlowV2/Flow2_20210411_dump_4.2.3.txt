@@ -1,3 +1,10 @@
+#$ TITLE:  Flow V2 dump all
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, tune, pid, basic, default
+#$ AUTHOR: CMD_Muetze
+
 dump all
 
 # version

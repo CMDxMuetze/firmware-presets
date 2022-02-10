@@ -141,11 +141,9 @@
     ],
     "author": [
       "Betaflight",
+      "CMD_Muetze",
+      "CMD_Muetze#",
       "ctzsnooze",
-      "Directory",
-      "Jye Smith",
-      "NemesisXB",
-      "Sjoer van der Ploeg",
       "sugarK"
     ],
     "keywords": [
@@ -167,13 +165,9 @@
       "CRSF",
       "default",
       "defaults",
-      "diatone",
       "divimath",
       "DShot telemetry",
-      "E7082VM",
       "ELRS",
-      "emax",
-      "EVO",
       "expert",
       "express",
       "feedforward",
@@ -187,28 +181,18 @@
       "HD_freestyle",
       "HDzero",
       "hot",
-      "HV",
-      "IRC",
       "jitter",
       "leds",
       "link",
       "longrange",
-      "mamba",
       "mode",
       "modes",
-      "nano",
-      "nanohawk",
       "no rpm",
       "noisy",
       "normal",
-      "OP400",
-      "OpenVTx",
       "OSD",
-      "OVX300",
-      "OVX303",
       "partial",
       "pid",
-      "pro32",
       "race",
       "racing",
       "rates",
@@ -219,35 +203,16 @@
       "rc_smoothing",
       "reset",
       "rpm",
-      "rush",
-      "rush tank",
-      "rushfpv",
-      "sa",
-      "SA 2.0",
-      "SA 2.0 lite",
       "SA 2.1",
-      "sa2.0",
-      "sa20",
       "shark bite",
-      "smartaudio",
       "smooth",
       "smoothing",
       "some",
-      "speedybee",
       "switch",
-      "tank solo",
-      "tank ultimate",
       "TBS",
-      "tiny tank",
       "tracer",
-      "TRAMP",
       "transition",
       "tune",
-      "tx800",
-      "ultra",
-      "ultra 1000",
-      "unify",
-      "unify pro",
       "very",
       "very clean",
       "very noisy",
@@ -257,6 +222,163 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.2/osd/defaults.txt",
+      "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
+      "title": "Default 4.3 OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "OSD"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.2/tune/Crux3/CRUX3_20210628_BTFL_cli_diffall.txt",
+      "hash": "14a7fc705c7e1a0f6a62431116b68e3b7b17a932e87933fba88045a7e2ba85e3",
+      "title": "Crux3 diff all",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "CMD_Muetze",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.2/tune/Crux3/CRUX3_20210628_BTFL_cli_dumpall.txt",
+      "hash": "f2aecfb787d62b6ee02f601e7dc78f83845ff459bf930abbbb899b82835d15e0",
+      "title": "Crux3 dump all",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "CMD_Muetze",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.2/tune/FlowV2/Flow2_20210411_diff_4.2.3.txt",
+      "hash": "701584e11b518794c485c9b94280709524cf1cd59ea654d42fea55ff83f29a0f",
+      "title": "Flow V2 diff all",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "CMD_Muetze",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.2/tune/FlowV2/Flow2_20210411_dump_4.2.3.txt",
+      "hash": "57bff14fa0cb8f83d273c50e2de46aeb73dcdb07482363776db836de932ba373",
+      "title": "Flow V2 dump all",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "CMD_Muetze",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.2/tune/Stingy/Stingy_31.03.2021_diff_all.txt",
+      "hash": "7d100da0b5044aa07608d459a27ca0e670e52944a054f701dfaf6eefbae044db",
+      "title": "Stingy diff all",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "CMD_Muetze",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.2/tune/Stingy/Stingy_31.03.2021_dump.txt",
+      "hash": "d610451f720d826313b8999711e6dd3d65133e288a8f47060e7aa1648eee0a59",
+      "title": "Stingy dump all",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "CMD_Muetze#",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.2/tune/Stingy/Stingy_31.03.2021_dump_stock.txt",
+      "hash": "3b896820862b672f229e4fddcc07db69c166d240db0a1c9f33f78422feb1586c",
+      "title": "Stingy dump stock settings",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "CMD_Muetze",
+      "priority": 1000000000000
+    },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
       "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
@@ -958,28 +1080,6 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.3/vtx/diatone_mamba_ultra_1000.txt",
-      "hash": "f058b040995b0054977e5a70298cc26b699ea7c64d825e55fbf55905b3aac74e",
-      "title": "Diatone Mamba Ultra 1000 VTX Tables",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "vtxtable",
-        "diatone",
-        "mamba",
-        "ultra",
-        "ultra 1000"
-      ],
-      "author": "NemesisXB",
-      "priority": 1000000
-    },
-    {
       "fullPath": "presets/4.3/vtx/HDZero_race2.txt",
       "hash": "0f0b8f7a8bfe4c48fe1897e58c3de4977a45550b4316aa856be00ffe97e0061a",
       "title": "HDZero race 2",
@@ -996,266 +1096,6 @@
         "divimath",
         "shark bite",
         "SA 2.1"
-      ],
-      "author": "sugarK",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/NanoHawk.txt",
-      "hash": "86e37f00a44c33cca95989a0ce78735c12744dbe230a373278aca86b3c159b19",
-      "title": "Emax NanoHawk 1S SmartAudio 2.0 VTX table",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "nanohawk",
-        "emax",
-        "smartaudio",
-        "sa",
-        "sa20",
-        "sa2.0"
-      ],
-      "author": "Sjoer van der Ploeg",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/OpenVTx.txt",
-      "hash": "1cbb15ca60cd1392001158a2c73857d7b1481255c09723dcdf1d037bc1edb5fe",
-      "title": "OpenVTx",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "OpenVTx",
-        "TRAMP",
-        "SA 2.1",
-        "E7082VM",
-        "OVX300",
-        "OVX303",
-        "OP400"
-      ],
-      "author": "Jye Smith",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/rush_sa2.1_vtx_tables.txt",
-      "hash": "22aadeaaf187206e8e33fe426586de11dcfb1ea0ef3e56850ff9aabd37078b14",
-      "title": "Rush Tiny Tank, Tank Racing, Tank Ultimate Plus/Mini/II, and Tank Solo VTX tables",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "rush tank",
-        "rush",
-        "rushfpv",
-        "tank ultimate",
-        "tank solo",
-        "tiny tank"
-      ],
-      "author": "Directory",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/speedybee_tx800.txt",
-      "hash": "6fc6fff69555a43b7fb37943479e868403cd571549ea6b4d905c0d633f5968ee",
-      "title": "SpeedyBee TX800 VTX Tables",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "speedybee",
-        "tx800"
-      ],
-      "author": "NemesisXB",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/tramp_nano_and_HV.txt",
-      "hash": "0a496b6215aae4a72cbe0c1c1a3bc5d225609ebf25318c428abd6ad383e9bcfe",
-      "title": "IRC Tramp Nano and HV",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "IRC",
-        "tramp",
-        "HV",
-        "nano"
-      ],
-      "author": "sugarK",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/Unify_EVO_5G8_HV_SA.txt",
-      "hash": "1065525a75ef9c3c4d5adff000011c2e65a13aab8cac5755dae5571fd3faa605",
-      "title": "TBS Unify EVO 5G8 (HV) - SA 2.1",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "tbs",
-        "unify",
-        "pro32",
-        "HV",
-        "SA 2.1",
-        "EVO"
-      ],
-      "author": "sugarK",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/Unify_Pro32_HV_SA2_1.txt",
-      "hash": "c7bb36ac2e9d27f3caae5ffaeae2f16c7e431ff8ea36f13a2a2c15794e7442e5",
-      "title": "TBS Unify Pro32 HV SA 2.1",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "tbs",
-        "unify",
-        "pro32",
-        "HV",
-        "SA 2.1"
-      ],
-      "author": "sugarK",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/Unify_Pro32_Nano_SA2_1.txt",
-      "hash": "d0ba39e4ac3552a2f52aad85abc010cae1cc799e33adc192acd26cf704bac62f",
-      "title": "TBS Unify Pro32 Nano - SA 2.1",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "tbs",
-        "unify",
-        "pro32",
-        "nano",
-        "SA 2.1"
-      ],
-      "author": "sugarK",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/Unify_Pro_HV_800mw_Unify_Pro_V3_SA_2_0.txt",
-      "hash": "0c01584517d2c091c6331570f4cb3270841a831ae794bf2cb7bf6db9d58e12a9",
-      "title": "TBS Unify Pro HV 800mw / TBS Unify Pro V3 (5v) SA 2.0",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "tbs",
-        "unify pro",
-        "HV",
-        "SA 2.0"
-      ],
-      "author": "sugarK",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/Unify_Pro_HV_Race_Not_Race_V2_SA2_0.txt",
-      "hash": "5eca61072af03cbd13c0b00e6a44e72a2348d72e5f7067df0bb8a44905cf616d",
-      "title": "TBS Unify Pro HV Race (Not Race V2) SA 2.0",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "tbs",
-        "unify pro",
-        "HV",
-        "SA 2.0"
-      ],
-      "author": "sugarK",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/Unify_Pro_HV_Race_V2 _SA2_1.txt",
-      "hash": "258d45b78ab26c8882e81bd1525b5d2169189936c952268a702c887e34d7ec10",
-      "title": "TBS Unify Pro HV Race (Not Race V2) - SA 2.0",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "tbs",
-        "unify pro",
-        "HV",
-        "SA 2.0"
-      ],
-      "author": "sugarK",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/Unify_Pro_Nano_SA2_0_lite.txt",
-      "hash": "40ad77766336eca6fb8070e8731678ec29f9cf964cfeb2833de9a2d1f1e1e75d",
-      "title": "TBS Unify Pro Nano (Not Pro32 Nano) SA 2.0 lite",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "tbs",
-        "unify pro",
-        "HV",
-        "SA 2.0 lite"
       ],
       "author": "sugarK",
       "priority": 1000000
